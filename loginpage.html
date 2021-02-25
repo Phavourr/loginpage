@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>login form</title>
+  <style class="text/css">
+    .lab {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      color: blue;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      width: 120px;
+    }
+
+    .input {
+      margin-left: 10;
+      width: 350px;
+      padding: 12px 20px;
+      margin: 1px 10px;
+      box-sizing: border-box;
+      border: 1px solid rgb(116, 52, 52);
+      border-radius: 10px;
+      color: black;
+      background-position: 6px 6px;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      outline: none;
+      border: 2px solid lightblue;
+}
+    }
+fieldset{
+  width: 200px;
+  background-color: rgb(178, 217, 223);
+    }
+    .input[type=password] {
+      background-image: none;
+    }
+
+    .input[type=text] {
+      background-image: url('..//img/name.png');
+    }
+     
+    .div {
+      width: 80%;
+    }
+
+    .uname {
+      padding: 12px 50px 75px 100px;
+      padding-left: 70px;
+    }
+    .login{
+      padding: 12px 50px 75px 100px;
+          padding-left: 15px;
+    }
+    .checkbox{
+      padding-left: 50px;
+    }
+    .forgot{
+          padding-left: 15px;
+    }
+    .legend {
+      width: 130px;
+    }
+  </style>
+</head>
+
+<body style="background-color: rgb(225, 230, 224)">
+  <!--This is a login form-->
+  <form action="../sign up/sign up.html">
+    <fieldset>
+
+      <legend class="legend">Fill In login details</legend>
+        <div class="imgcontainer"></div><br>
+
+        <div>
+          <div class="lab">
+            <label for="uname"><b>Username</b></label>
+          </div>
+          <input type="text" placeholder=" Eg.Phavour1234" name="uname" required class="input"><br><br>
+          <div class="lab">
+            <label for="uname"><b>Password</b></label>
+          </div>
+          <input type="password" placeholder=" Eg.0801000000" name="uname" required class="input">
+          <br><br>
+          <div class="forgot">
+            <a href="#"><b>Forgot Password?</b></a>
+            <label>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" checked="checked" name="remember"><b>Remember me</b><br><br>
+            </label>
+          </div>
+          
+          <div class="login">
+            <button type="submit"><b>LOGIN</b></button>
+          </div>
+          
+        </div>
+    </fieldset>
+  </form>
+</body>
+</form>
+
+</html>

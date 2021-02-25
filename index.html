@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style class="text/css">
+.lab{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    width: 120px;
+    color: blue;
+}
+.input{
+    margin-left: 0px;
+    width: 450px;
+    padding: 12px 15px;
+    margin: 12px 2px;
+     box-sizing: border-box;
+     border: 2px solid lightblue;
+     border-radius: 10px;
+     color: white;
+     padding-left: 20px;
+     outline: none;
+}
+input:hover{
+    border: 1px soild black;
+}
+input:hover[type=text]{
+    color: black;
+    background-color: white;
+    border: 3px solid rgb(192, 190, 59);
+}
+input[type=date]{
+    color: black;
+}
+input[type=text]:focus {
+    border: 3px solid lightblue;
+}
+input:hover[type=password]{
+    color: black;
+    border: 3px solid rgb(192, 190, 59);
+    background-color: white;
+    background-position: 10px 10px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+select[type=input]{
+    color: black;
+    width: 450px;
+    padding: 12px 15px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    outline: none;
+    margin: 15px 2px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+a{
+    margin-left: ;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: black;
+}
+button:hover{
+    background-color: rgb(192, 190, 59);
+    color: white;
+    border: 3px solid rgb(192, 190, 59);
+}
+    </style>
+</head>
+<body style="background-color: rgb(225, 230, 224);">
+    <form action="../login page/login page.html">
+    <div class="lab">
+        <label for="uname"><b>First Name</b></label>
+        <input type="text" placeholder=" Eg.Chinemerem" name="uname" required class="input">
+        
+        <label for="uname"><b>Last Name</b></label>
+        <input type="text" placeholder=" Eg.Chukwuemeka" name="uname" required class="input">
+        
+        <label for="uname"><b>Email</b></label>
+        <input type="text" placeholder=" Example@gmail.com" name="uname" required class="input">
+        
+        <label for="uname"><b>Date Of Birth</b></label>
+        <input type="date" name="uname" required class="input">
+
+        <label for="uname"><b>Gender</b></label>
+        <select type="input">
+
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder=" Eg.Phavour1234" name="uname" required class="input">
+        
+        <label for="uname"><b>Password</b></label>
+        <input type="password" placeholder=" Eg.1234567" name="uname" required class="input">
+        
+        <label for="uname"><b>Retype Password</b></label>
+        <input type="password" placeholder=" Eg.1234567" name="uname" required class="input">
+
+        &nbsp;<button><b>Register</b></button>
+    </div>
+    
+    </form>
+    
+</body>
+</html>
